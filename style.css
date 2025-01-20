@@ -6,7 +6,10 @@
     font-weight: 400;
     font-style: normal;
   }
-
+*{
+    margin: 0;
+    padding: 0;
+}
  body{
     font-family: Quicksand;
  } 
@@ -184,11 +187,71 @@ background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0)
     width: 100%;
     
 }
+/* start Our Stories */
+
+
+/* end Our Stories */
+
+
+/* start footer */
+footer{
+    background-color: hsla(199,99%,49%,1);
+}
+.footter-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 228px;
+    padding-top: 123px;
+    padding-bottom: 174px;
+}
+
+.footer-titel{
+    display: flex;
+    gap: 11px;
+}
+.last-icon{
+    display: flex;
+}
+.hh{
+    margin-bottom: 23px;
+    color: white;
+}
+.pp{
+    color: hsla(0,0%,101%,1);
+    font-size: 1.2rem;
+}
+.footer-ul{
+    flex-direction: column;
+    color: white;
+}
+.last-h{
+    margin-bottom: 32px;
+}
+.im{
+    margin-left: 10px;
+}
+.about{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 
 
 /* strt 576px size */
 @media screen and (max-width:576px) {
-
+    /* footer strt */
+    .footter-container{
+        flex-direction: column;
+        margin-left: 20px;
+        
+    }
+    .footer-ul{
+        margin-top: 50px;
+    }
+    .rd-row{
+    margin-top: 50px;
+    }
     /* Start Standard Curriculum */
     .icon-container{
         display: none;

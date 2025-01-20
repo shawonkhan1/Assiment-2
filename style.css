@@ -28,6 +28,25 @@
 .d{
     color: brown;
 }
+.titles-p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsla(0,0%,51%,1);
+    margin: 0px 40px 38px 40px;
+}
+.titles-pp{
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsla(201,100%,69%,1);
+    text-align: center;
+    margin-bottom: 80px;
+}
+.p2{
+    color: hsla(42,100%,47%,1);
+}
+.p3{
+    color: hsla(271,100%,51%,1);
+}
 /* end share style */
 
 
@@ -48,8 +67,8 @@ ul{
     justify-content: space-around;
    
     margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
 }
 .school{
     font-weight: 700;
@@ -79,8 +98,9 @@ ul{
 /* start banner */
 .banner-container{
     display: flex;
-    gap: 400px;
-    margin: 24px 350px 50px 350px;
+    gap: 500px;
+    margin: 24px 180px 50px 180px;
+   
 }
 .title-banner{
     margin-top: 125px;
@@ -102,11 +122,64 @@ ul{
 .banner-title-color2{
     color: hsla(199,99%,49%,1);
 }
+/* banner end */
 
+/* Start Standard Curriculum */
+
+.Curriculum-bg{
+   background-image: url("./assets/bg.png");
+}
+.Curriculum-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.card-container{
+    display: flex;
+    gap: 40px;
+    margin-left: 320px;
+    margin-right: 220px;
+    margin-bottom: 50px;
+}
+.row{
+    width: 367.8px;
+    height: 476.78px;
+    border: 1px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.row1{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255); 
+}
+.row2{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.row img{
+    margin: 52px 117px 32px 117px;
+}
+.titles{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 33px;
+    margin: 0px 78px 33px 78px;
+}
 
 
 /* strt 576px size */
 @media screen and (max-width:576px) {
+
+    /* Start Standard Curriculum */
+    .card-container{
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+        align-items: center;
+    }
    
      .nav-container{
         display: none;
@@ -123,7 +196,7 @@ ul{
         margin-bottom: 12px;
      }
      .menu{
-        /* height: 100px; */
+        
         width: 50px;
      }
      .menu img{

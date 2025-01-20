@@ -168,12 +168,31 @@ background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0)
     margin-bottom: 33px;
     margin: 0px 78px 33px 78px;
 }
+/* icon strt */
+.icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.aa{
+    width: 80px;
+    background-color: hsla(38,99%,51%,1);
+    border-radius: 50%;
+
+}
+.aa img{
+    width: 100%;
+    
+}
 
 
 /* strt 576px size */
 @media screen and (max-width:576px) {
 
     /* Start Standard Curriculum */
+    .icon-container{
+        display: none;
+    }
     .titles{
         margin-bottom: 10px;
     }

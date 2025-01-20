@@ -48,6 +48,8 @@ ul{
     justify-content: space-around;
    
     margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .school{
     font-weight: 700;
@@ -71,6 +73,38 @@ ul{
 .mobile-container{
     display: none;
 }
+/* navbar end */
+
+
+/* start banner */
+.banner-container{
+    display: flex;
+    gap: 400px;
+    margin: 24px 350px 50px 350px;
+}
+.title-banner{
+    margin-top: 125px;
+}
+.banner-h{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: hsla(0,0%,7%,1);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.banner-title-color1{
+    color: hsla(38,99%,51%,1);
+}
+.banner-title-color2{
+    color: hsla(199,99%,49%,1);
+}
+
+
+
 /* strt 576px size */
 @media screen and (max-width:576px) {
    
@@ -96,5 +130,44 @@ ul{
         width: 100%;
         padding-top: 5px;
      }
+     /* navbar end */
+
+     /* strt banner */
+     .banner-container{
+        flex-direction: column-reverse;
+        margin: 0px;
+        gap: 20px;
+        align-items: center;
+        
+     }
     
+     .title-banner{
+        margin-top: 10px;
+        align-items: center;
+      
+    }
+
+    .banner-img{
+        max-width: 300px;
+        display: flex;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    
+    .banner-h{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .banner-p{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .btnn{
+        display: grid;
+    }
+    .button-1{
+       margin: auto;
+       background-color: rgb(214, 201, 11);
+    }
 }

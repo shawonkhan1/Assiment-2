@@ -75,6 +75,7 @@ ul{
     font-weight: 700;
     font-size: 2rem;
     margin-top: 8px;
+    align-items: center;
 }
 .btn{
     background-color: hsla(38,99%,51%,1);
@@ -86,7 +87,6 @@ ul{
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
-    margin-top: 10px;
 }
 .hrr{
     display: none;
@@ -148,8 +148,9 @@ ul{
 .card-container{
     display: flex;
     gap: 40px;
-    margin-left: 320px;
-    margin-right: 220px;
+    justify-content: center;
+    /* margin-left: 320px;
+    margin-right: 220px; */
     margin-bottom: 50px;
 }
 .row{
@@ -195,8 +196,91 @@ background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0)
     
 }
 /* start Our Stories */
+.section1{
+    background-position: center;
+    background: url(./assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.story-title{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.9rem;
+}
+.first-colomn{
+    max-width: 540px;
+    border-radius: 16px;
+    background-color: white;
+    height: 700px;
+  
+}
+.first-colomn img{
+    border-radius: 16px 16px 0px 0px;
+}
+.first-p{
+    background-color: hsla(185,78%,57%,1);
+    border-radius: 48px;
+    padding: 14px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    max-width: 174px;
+    position: relative;
+    left: 39px;
+    top: -35px;
+    color: white;
+}
 
+.first-h{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsla(0,0%,1%,1);
+    margin-left: 38px;
+    margin-bottom: 31px;
+    margin-top: -10px;
+}
+.last-p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 38px;
+    color: hsla(0,0%,41%,1);
+    padding-bottom: 34px;
+}
 
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* first card end */
+.grid-1{
+    width: 291px;
+    background-color: white;
+    border-radius: 0px 0px 16px 16px;
+}
+.grid-1 img{
+   border-radius:  16px 16px 0px 0px;
+}
+.grid-h2{
+    text-align: center;
+    font-weight: 700;
+    padding-top: -33px;
+    padding-bottom: 33px;
+    color: black;
+}
+.clr{
+ 
+    background-color: hsla(241,83%,65%,1);
+}
+.view{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    margin-top: 80px;
+}
+.a{
+    margin-bottom: 30px;    border-radius: 16px;
+}
 /* end Our Stories */
 
 
@@ -254,6 +338,7 @@ footer{
     .footter-container{
         flex-direction: column;
         margin-left: 20px;
+        height: 900px;
         
     }
     .footer-ul{
@@ -294,7 +379,6 @@ footer{
         display: flex;
         justify-content: space-between;
         margin-bottom: 12px;
-        margin-top: 15px;
      }
      .menu{
         
@@ -346,5 +430,39 @@ footer{
     .button-1{
        margin: auto;
        background-color: rgb(214, 201, 11);
+    }
+    /* our stry */
+    .first-colomn{
+        display: none;
+    }
+
+    .first-p{
+        max-width: 100px;
+        height: 10px;
+        padding: 15px;
+        font-weight: 400;
+        position: relative;
+        left: 20px;
+        top: -20px;
+        font-size: 0.7rem;
+        
+    }
+    .grid-h2{
+        /* margin-top: -30px; */
+        font-weight: 500;
+        font-size: 1rem;
+        color: black;
+    }
+    .a{
+        width: 160px;
+        height: 240px;
+    }
+    .a img{
+        width: 100%;
+    }
+    .grid-1{
+        margin-bottom: 10px;
+        border-radius: 16px;
+        /* border-radius: 16px 16px 0px 0px; */
     }
 }

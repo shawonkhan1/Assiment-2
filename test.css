@@ -1,6 +1,6 @@
-.color{
+.section1{
+    background-position: center;
     background: url(./assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
- 
 }
 .story-title{
     margin-top: 60px;
@@ -10,9 +10,10 @@
     font-size: 2.9rem;
 }
 .first-colomn{
-    width: 540px;
+    max-width: 540px;
     border-radius: 16px;
-    background-color: rgb(223, 219, 219);
+    background-color: white;
+    height: 730px;
   
 }
 .first-colomn img{
@@ -25,12 +26,13 @@
     text-align: center;
     font-weight: 500;
     font-size: 1rem;
-    width: 174px;
+    max-width: 174px;
     position: relative;
     left: 39px;
     top: -45px;
     color: white;
 }
+
 .first-h{
     font-size: 1.5rem;
     font-weight: 700;
@@ -46,24 +48,52 @@
     color: hsla(0,0%,41%,1);
     padding-bottom: 34px;
 }
-/* first card end */
-.grid-h2{
-    font-size: 1rem;
-    font-weight: 700;
-    margin-left: 38px;
-    padding-bottom: 33px;
-    margin-top: -33px;
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+/* first card end */
 .grid-1{
-    background-color: rgb(223, 219, 219);
-    width: 291px;
-    border-radius: 16px;
+    background-color: white;
+    border-radius: 0px 0px 16px 16px;
 }
 .grid-1 img{
-    border-radius: 16px 16px 0px 0px;
+   border-radius:  16px 16px 0px 0px;
 }
-/* grid */
-.grid-container{
-    display: flex;
-    gap: 20px;
+.grid-h2{
+    text-align: center;
+    font-weight: 700;
+    padding-top: -33px;
+    padding-bottom: 33px;
+}
+
+@media screen and (max-width:576px) {
+    .first-colomn{
+        display: none;
+    }
+
+    .first-p{
+        max-width: 100px;
+        height: 15px;
+        padding: 15px;
+        font-weight: 400;
+        position: relative;
+        left: 20px;
+        
+       
+        
+    }
+    .grid-h2{
+        margin-top: -30px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .a{
+        width: 160px;
+    }
+    .a img{
+        width: 100%;
+    }
 }

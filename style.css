@@ -50,6 +50,10 @@
 .p3{
     color: hsla(271,100%,51%,1);
 }
+.hovar:hover{
+    background-color: rgb(99, 196, 164);
+    color: black;
+}
 /* end share style */
 
 
@@ -338,6 +342,7 @@ footer{
     .marque{
         display: none;
     }
+    
     .footter-container{
         flex-direction: column;
         margin-left: 20px;

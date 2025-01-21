@@ -62,3 +62,8 @@
 .grid-1 img{
     border-radius: 16px 16px 0px 0px;
 }
+/* grid */
+.grid-container{
+    display: flex;
+    gap: 20px;
+}

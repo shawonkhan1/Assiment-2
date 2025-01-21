@@ -86,12 +86,18 @@ ul{
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
+    margin-top: 10px;
 }
 .hrr{
     display: none;
 }
 .mobile-container{
     display: none;
+}
+
+
+ul{
+   align-items: center;
 }
 /* navbar end */
 
@@ -147,8 +153,8 @@ ul{
     margin-bottom: 50px;
 }
 .row{
-    width: 367px;
-    height: 476px;
+    /* width: 367px;
+    height: 476px; */
     border: 1px solid rgb(242, 232, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
@@ -237,7 +243,9 @@ footer{
     font-weight: 500;
 }
 
-
+.none{
+    display: none;
+}
 
 /* strt 576px size */
 
@@ -270,7 +278,7 @@ footer{
         margin-left: 0px;
         align-items: center;
     }
-    
+
    /* nav */
 
      .nav-container{
@@ -286,6 +294,7 @@ footer{
         display: flex;
         justify-content: space-between;
         margin-bottom: 12px;
+        margin-top: 15px;
      }
      .menu{
         

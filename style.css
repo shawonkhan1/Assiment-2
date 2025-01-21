@@ -335,6 +335,9 @@ footer{
 
 @media screen and (max-width:576px) {
     /* footer strt */
+    .marque{
+        display: none;
+    }
     .footter-container{
         flex-direction: column;
         margin-left: 20px;

@@ -316,6 +316,8 @@ footer{
 .pp{
     color: hsla(0,0%,101%,1);
     font-size: 1.2rem;
+    margin-top: 30px;
+    color: hsla(0,0%,101%,1);
 }
 .footer-ul{
     flex-direction: column;
@@ -323,6 +325,7 @@ footer{
 }
 .last-h{
     margin-bottom: 32px;
+    color: white;
 }
 .im{
     margin-left: 10px;
